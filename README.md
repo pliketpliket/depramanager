@@ -121,4 +121,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This extension is licensed under the MIT License. See the LICENSE file for more information.
+This extension is licensed under the APACHE License. See the LICENSE file for more information.
