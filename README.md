@@ -1,6 +1,7 @@
 # Depramanager Documentation
 
-<img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/icon.png?v=1739468743961">
+Showcase:
+<a href="https://youtu.be/gHTd4CFbHas"><img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/icon.png?v=1739468743961"></a>
 
 ## Overview
 
@@ -8,10 +9,10 @@ The Depramanger is a Visual Studio Code (VSCode) extension designed to help deve
 
 ## Features
 
-- **Dependency Analysis**: Scans your workspace to identify declared, installed, missing, and extra dependencies.
+- **Dependency Analysis**: Scans your workspace to identify declared, installed, missing, and extra dependencies, also depedency trees.
 - **Sync Declarations**: Automatically adds missing dependencies to your project's dependency files.
 - **Check for Updates**: Notifies you of outdated dependencies and allows you to update them.
-- **Install Specific Dependency**: Allows you to install a specific dependency for your project.
+- **Install Specific Dependency, uninstall also**: Allows you to install, uninstall dependencies for your project, making it easier to install and uninstall.
 - **Extension Recommendations**: Suggests and installs recommended VSCode extensions for your project's programming language.
 - **Highlights outdated dependencies** Highlights outdated dependencies in the editor in the configuration file of the given language.
 - **Scans for vulnerabilities** Scans for vulnerabilities in the dependencies of your project.
@@ -38,6 +39,7 @@ The Depramanger is a Visual Studio Code (VSCode) extension designed to help deve
 The extension provides several commands that can be accessed through the Command Palette (`Ctrl+Shift+P`) or (`Cmd+Shift+P`).
 
 #### 1. Scan Dependencies
+<img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/dep_trees.png?v=1739802587808">
 
 - **Command**: `Depramanager: scanDependencies`
 - **Description**: Scans the workspace for dependencies and generates a report.
@@ -61,11 +63,11 @@ The extension provides several commands that can be accessed through the Command
 - **Description**: Checks for outdated dependencies and prompts you to update them.
 - **Usage**:
   1. Open the Command Palette (`Ctrl+Shift+P`).
-  2. Type `Check for Updates` and select it.
+  2. Type `Check for Updates and Update dependencies` and select it.
   3. The extension will check for updates and prompt you to select dependencies to update.
 
 #### 4. Install Specific Dependency
-
+<img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/install.png?v=1739802582647">
 - **Command**: `Depramanger: installDependency`
 - **Description**: Allows you to install a specific dependency for your project.
 - **Usage**:
@@ -84,6 +86,7 @@ The extension provides several commands that can be accessed through the Command
   3. The extension will scan the dependencies for vulnerabilities and display a report in a new webview panel.
 
 #### 6. Scan depedencies without the depedency trees
+<img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/deps_installed.png?v=1739802586578">
 
 - **Command**: `Depramanager: dependencyChecker.scanDependenciesWithoutDepedencyTrees`
 - **Description**: Scans the workspace for dependencies and generates a report without the dependency trees.
@@ -93,6 +96,7 @@ The extension provides several commands that can be accessed through the Command
   3. The extension will scan your workspace and display a report in a new webview panel.
 
 #### 7. Uninstall depedencies
+<img src="https://cdn.glitch.global/a876511c-32af-4497-ae48-bc7d305558bb/uninstall.png?v=1739802588836">
 
 - **Command**: `Depramanager: dependencyChecker.uninstallDependency`
 - **Description**: Uninstalls a specific dependency for your project.
@@ -121,4 +125,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This extension is licensed under the APACHE License. See the LICENSE file for more information.
+This extension is licensed under the Apache 2 License. See the LICENSE file for more information.
